@@ -43,7 +43,7 @@ def update_task():
     view_tasks()
     try:
         index = int(input("Enter the task number to update: ")) - 1
-        if 0 <= index < len(tasks):  # ✅ correct range check
+        if 0 <= index < len(tasks):  # correct range check
             new_task = input("Enter the new task: ")
             tasks[index] = new_task
             save_tasks(tasks)
