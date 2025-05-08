@@ -1,3 +1,6 @@
-run
+wakeup
+freshup
+excercise
 bath
-walkup
+eat
+office
